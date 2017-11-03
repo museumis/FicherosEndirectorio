@@ -11,7 +11,7 @@ public class Main {
 	//Variable statica de la clase
 	public static int TAMANIO_MAXIMO_FICHERO = 204800;
 	/**
-	 * Método que devuelve una cadena de texto	 * 
+	 * MÃ©todo que devuelve una cadena de texto	 * 
 	 * @param pregunta
 	 * @return respuesta
 	 */
@@ -39,7 +39,7 @@ public class Main {
 
 		// Si el directorio existe
 		if (directorio.exists()) {
-			// Creamos un array con los ficheros que contiene
+			// Se crea un array con los ficheros que contiene
 			File ficheros[] = directorio.listFiles();
 
 			for (int i = 0; i < ficheros.length; i++) {
@@ -68,7 +68,7 @@ public class Main {
 	 */
 	public static void main(String[] args) {
 		System.out.println("- Lectura de Directorios -");
-		leerDirectorio(pedirTexto("Ruta del directorio: "), pedirTexto("Extensión que desea ver: "));
+		leerDirectorio(pedirTexto("Ruta del directorio: "), pedirTexto("ExtensiÃ³n que desea ver: "));
 	}//Fin del main
 
 }//Fin de la clase
